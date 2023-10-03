@@ -1,0 +1,272 @@
+{
+  "webApiServices": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e685",
+      "guid": "2676b40a-dbfa-4f68-a08c-5c40eb0eb347",
+      "name": "Rest Api 1",
+      "resolutionPath": "/api1",
+      "checksum": "1cb27db18b4cbde3a2958f2e34b79948f90d699b"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e716",
+      "guid": "2f65d70e-5ee0-411f-a10a-7ecaaf3b1a68",
+      "name": "Rest Api 2",
+      "resolutionPath": "/api2",
+      "checksum": "6b2e555519d62f84fac207a1b846a2d2d83955cc"
+    },
+    {
+      "goid": "e7a8b1b94c82082aa8f1cb6659f83221",
+      "guid": "80498b21-e780-4291-abe7-b46f557bc71f",
+      "name": "Hello World",
+      "resolutionPath": "/helloworld",
+      "checksum": "3079e9059596c2927d519ab1b4c7ca182c892c23"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad8ba399",
+      "guid": "da2a1b35-debc-458c-8892-f75a01bf9b7a",
+      "name": "test headers",
+      "resolutionPath": "/testheaders",
+      "checksum": "e272c84aa976bdd0d4973344b03123005ff473dd"
+    }
+  ],
+  "internalWebApiServices": [
+    {
+      "goid": "5f5c040b442f49fe874d41dde40c2e37",
+      "guid": "78c2381b-b957-48a9-a683-3ac425c1c1f0",
+      "name": "Gateway GraphQL Management Service",
+      "resolutionPath": "/graphman",
+      "checksum": "f923bbb84adaddc9030c711c0c5e2a29689a72f6"
+    }
+  ],
+  "globalPolicies": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d31",
+      "guid": "400cae20-08dd-4e46-b2ea-919b25f40321",
+      "name": "globalReceived",
+      "tag": "message-received",
+      "checksum": "351d17b7c169497f42e220d141edc1d32ab99a4a"
+    }
+  ],
+  "backgroundTaskPolicies": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d07",
+      "guid": "5fde4fb4-72b4-4435-a564-fd1b9990f494",
+      "name": "dailySync",
+      "checksum": "98dea9e0b53340efe66535ba8f551564af46afa3"
+    }
+  ],
+  "policyFragments": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e6db",
+      "guid": "e513b52b-7d41-416f-9906-17f8e12b6d6a",
+      "name": "ABC Rules",
+      "checksum": "7127b6044fcafaef8321391dcc22174fa261b751"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4db6",
+      "guid": "a9f7163b-d17a-42e8-9b75-855ca6f67c08",
+      "name": "Generic API Template",
+      "checksum": "130b6766bc4beecbdc219a9f7d939f784c05e4a5"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4cd4",
+      "guid": "7079ed73-1730-4679-bdc0-6cc56b9fb4bc",
+      "name": "enforcePlan",
+      "checksum": "5cb4ed03adcc25e45d3dd2b8e3a911be7d077bc8"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e46d5",
+      "guid": "0303de0b-1ce7-46f3-bef4-95e4ebe8de5d",
+      "name": "lookupSubscriptions",
+      "checksum": "487d0175ae37e8c058def6571042171cd1c2ea84"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a2c",
+      "guid": "3b1c8451-6af9-4983-ae6b-1f7e795ab571",
+      "name": "sub_abc",
+      "checksum": "d797c87b313b4a1178dd51e3ff113c44ead55df4"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a47",
+      "guid": "a88d82dd-e024-4c22-a6db-a8fc91e8b105",
+      "name": "sub_def",
+      "checksum": "0d8e1ad45445ab7536582590d79591051a24a989"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6a61",
+      "guid": "e15a5669-0bf8-4873-97e4-d21464a7fe42",
+      "name": "sub_ghi",
+      "checksum": "e39d354d07d9a2944658244c3701b4f8f6b0b13d"
+    }
+  ],
+  "clusterProperties": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e5f3",
+      "name": "a",
+      "checksum": "b77d1a0eca5224e5a33453b8fa6ace8fcbb1ce5e"
+    },
+    {
+      "goid": "7430d9efc5cfd3aa35f3a47bb479090d",
+      "name": "audit.setDetailLevel.FINE",
+      "checksum": "2ef1d6f928b5e331fb3d258f596a93ef41c8ab6d"
+    },
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e5f9",
+      "name": "b",
+      "checksum": "f2e671c056a9942360caca33e0051919626d2b49"
+    },
+    {
+      "goid": "5f5c040b442f49fe874d41dde40c2eac",
+      "name": "backend1",
+      "checksum": "e12158076e43b73800a264ceeb36fe03effc7c65"
+    },
+    {
+      "goid": "fb57cc2621b92a5331f63cc0f0c3401d",
+      "name": "backend2",
+      "checksum": "66e39d22fd0641e757a1f6b7d2454b7f126fe812"
+    },
+    {
+      "goid": "0000000000000000fffffffffff5519f",
+      "name": "cluster.hostname",
+      "checksum": "25e3106e8778b6ebe94d7d3f8eeca0d96dc258be"
+    },
+    {
+      "goid": "1f86e857dd3de8a1503ef00bdbecfd64",
+      "name": "io.httpsHostAllowWildcard",
+      "checksum": "b64f30c7d88b60bbf1b0def0178b40291c09e06b"
+    },
+    {
+      "goid": "3a27ce8859818b64f344f1bae3652ff9",
+      "name": "keyStore.defaultSsl.alias",
+      "checksum": "ea7e440267e9c93b25578950c783ddca2f0fd50b"
+    },
+    {
+      "goid": "c10f744b11017994a1cb409e48aa65f6",
+      "name": "log.levels",
+      "checksum": "bf4ba835f74b79783055e4fe4a890537d281c5b1"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad866070",
+      "name": "myDemoConfigVal",
+      "checksum": "57d4e31691d7373f10911868be0ee60df25d5323"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e4596",
+      "name": "plan_a_members",
+      "checksum": "2dbd3dec9e3407101060070dbe060e7c605c93ab"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e512d",
+      "name": "plan_b_members",
+      "checksum": "8f4b3dfea1caca04131e78d7cb37d7d1298e74f1"
+    },
+    {
+      "goid": "e5cd57980c53d67b99eca6189e2e5133",
+      "name": "plan_c_members",
+      "checksum": "2668ff26ea7b8e2bb0f56a234621e1ae0c41fad1"
+    }
+  ],
+  "internalUsers": [
+    {
+      "goid": "00000000000000000000000000000003",
+      "name": "admin",
+      "login": "admin",
+      "checksum": "971201265a1ed774b316ecd4ddc2d01879324fcc"
+    }
+  ],
+  "jdbcConnections": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e762",
+      "name": "mydb",
+      "checksum": "a5f8e5070bd9d9d3f04a1b7c70798409be7dae8d"
+    }
+  ],
+  "jmsDestinations": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81d57",
+      "connectionGoid": "84449671abe2a5b143051dbdfdf81d55",
+      "name": "eventsOut",
+      "direction": "OUTBOUND",
+      "providerType": "WEBLOGIC JMS",
+      "checksum": "f8c6a0108c998495a5a78d1223129cb0f053f54d"
+    }
+  ],
+  "keys": [
+    {
+      "goid": "00000000000000000000000000000002:blah",
+      "keystoreId": "00000000000000000000000000000002",
+      "alias": "blah",
+      "checksum": "171c8376f9f9c32c679e2cf7217803450b483b43"
+    },
+    {
+      "goid": "00000000000000000000000000000002:ssl",
+      "keystoreId": "00000000000000000000000000000002",
+      "alias": "ssl",
+      "checksum": "709d67a43d934294d2eb546690c552245e3de4a4"
+    }
+  ],
+  "listenPorts": [
+    {
+      "goid": "5f5c040b442f49fe874d41dde40c2ebd",
+      "name": "Default HTTP (8080)",
+      "checksum": "77d652967c38b7ac38e500aa95b34d5c4b654ee8"
+    },
+    {
+      "goid": "5f5c040b442f49fe874d41dde40c2ebc",
+      "name": "Default HTTPS (8443)",
+      "checksum": "f5b9d135a82c5a97b09b552c379928093828e937"
+    },
+    {
+      "goid": "5f5c040b442f49fe874d41dde40c2ebe",
+      "name": "Default HTTPS (9443)",
+      "checksum": "fe9629d9263da177d4cbc3dc9d8ca5a0fe03fdf9"
+    },
+    {
+      "goid": "5f5c040b442f49fe874d41dde40c2ebf",
+      "name": "Node HTTPS (2124)",
+      "checksum": "a839f712484fb847665feb1606a2f6f6e1c03f35"
+    }
+  ],
+  "scheduledTasks": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf81e01",
+      "name": "My Daily Clean and Sync",
+      "checksum": "a211255dff5b8f6824e539a5e32a561296c91a56"
+    }
+  ],
+  "secrets": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e76e",
+      "name": "mydb",
+      "checksum": "fb4347dc7999c213d0c3d7d8ce5aa73cc140a165"
+    },
+    {
+      "goid": "012ce653ed64a2f429d3907b248a6782",
+      "name": "newpasswd",
+      "checksum": "1e3964f8fd4e0dbbf8ed84570cca97da530b7d44"
+    }
+  ],
+  "trustedCerts": [
+    {
+      "goid": "84449671abe2a5b143051dbdfdf7e704",
+      "name": "www.broadcom.com",
+      "subjectDn": "cn=www.broadcom.com,o=broadcom inc,l=san jose,st=california,c=us",
+      "thumbprintSha1": "4w230rgczdepEDjkuO8gYsOfyTU=",
+      "checksum": "1866cef9812889ec2518d0f41bf84612d4399241"
+    },
+    {
+      "goid": "3a27ce8859818b64f344f1bae3652ff8",
+      "name": "AutoTrustSslKey",
+      "subjectDn": "cn=ssg-64574856f9-2gj6g",
+      "thumbprintSha1": "YBp1Z6zo5bNpjA7xTTJ7swKvTAA=",
+      "checksum": "45cc59a4a75b79a964f785937e3b6d17954ae9a5"
+    },
+    {
+      "goid": "982cc1ee7369c6ca5a7ae1e4ad86dc6b",
+      "name": "New trusted cert",
+      "subjectDn": "cn=*.tesla.com,o=tesla\\, inc.,l=palo alto,st=california,c=us",
+      "thumbprintSha1": "iZJ/xtwDDv+gic0J9idwO9XqYVw=",
+      "checksum": "a365254617c3151a282af375d1fc4814d85d6556"
+    }
+  ]
+}
